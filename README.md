@@ -1,1 +1,3 @@
-# mesaninen-css-html
+npm install -g gulp
+npm install
+gulp watch
