@@ -1,3 +1,3 @@
 npm install -g gulp
 npm install
-gulp watch
+gulp serve
