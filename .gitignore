@@ -1,17 +1,1 @@
-*.class
-bin
-
-target
-.DS_Store
-
-# Maven og Eclipse-ting
-target/
-.project
-.classpath
-.settings/
-
-# IDEA-ting
-*.iml
-*.ipr
-*.iws
-/.idea
+node_modules
