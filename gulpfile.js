@@ -10,7 +10,12 @@ gulp.task("less", function () {
     .pipe(gulp.dest("./build/css"));
 });
 
-gulp.task("html", ["less"], function () {
+gulp.task("assets", function () {
+   return gulp.src("./src/assets/**/*.*")
+    .pipe(gulp.dest("./build/assets")); 
+});
+
+gulp.task("html", ["less", "assets"], function () {
   var target = gulp.src("./src/index.html");
   var sources = gulp.src(["./build/**/*.css"], { read: false });
  
